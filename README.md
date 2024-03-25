@@ -11,7 +11,7 @@ This project is for SS&amp;C recruiting process
 
 2. Create a folder for containing the project and go to the folder.
 
-3. Download source code using this command.
+3. Download the source code using this command.
 ```bash
 git clone https://github.com/nuntapong-yamsang/ToyRobot.git
 ```
@@ -58,27 +58,42 @@ RIGHT will rotate the robot 90 degrees in the right direction without changing t
 ```bash
 REPORT
 ```
-REPORT will announce the X,Y and F of the robot. This can be in any form, but standard output is
+REPORT will announce the X, Y, and F of the robot. This can be in any form, but the standard output is
 sufficient.
 
 ## 3. Example Input and Output:
 Example 1:
+
 PLACE 0,0,NORTH
+
 MOVE
+
 REPORT
+
 Output: 0,1,NORTH
 
 Example 2:
+
 PLACE 0,0,NORTH
+
 LEFT
+
 REPORT
+
 Output: 0,0,WEST
 
 Example 3:
+
 PLACE 1,2,EAST
+
 MOVE
+
 MOVE
+
 LEFT
+
 MOVE
+
 REPORT
+
 Output: 3,3,NORTH
