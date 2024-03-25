@@ -63,37 +63,28 @@ sufficient.
 
 ## 3. Example Input and Output:
 Example 1:
-
+```bash
 PLACE 0,0,NORTH
-
 MOVE
-
 REPORT
-
 Output: 0,1,NORTH
+```
 
 Example 2:
-
+```bash
 PLACE 0,0,NORTH
-
 LEFT
-
 REPORT
-
 Output: 0,0,WEST
+```
 
 Example 3:
-
+```bash
 PLACE 1,2,EAST
-
 MOVE
-
 MOVE
-
 LEFT
-
 MOVE
-
 REPORT
-
 Output: 3,3,NORTH
+```
